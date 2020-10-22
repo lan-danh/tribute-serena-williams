@@ -1,0 +1,163 @@
+/*********************** TAG SELECTORS ***********************/
+a {
+  font-family: 'Taviraj', serif;
+  color: black;
+  font-size: 2.5rem;
+}
+
+a:hover {
+  color: #32e0c4;
+}
+
+body {
+  margin: 0;
+  font-family: Open Sans;
+  font-size: 1.25rem;
+  text-align: center;
+}
+
+h1 {
+  margin-top: 0;
+  font-family: 'Taviraj', serif;
+}
+
+h3 {
+  font-family: 'Taviraj', serif;
+}
+
+hr {
+  width: 4%;
+  border-style: dotted;
+  border-bottom: none;
+  border-width: 6px;
+  border-color: #32e0c4;
+}
+
+
+/*********************** CLASS SELECTORS ***********************/
+
+.intro-container {
+  background-color: black;
+}
+
+.img-intro {
+  width: 65%;
+  height: 65%;
+  position: relative;
+  right: 15%;
+}
+
+.intro-header {
+  width: 55%;
+  position: absolute;
+  top: 50px;
+  right: 25px;
+  color: white;
+  text-align: center;
+}
+
+.intro-h1 {
+    font-size: 5rem;
+    line-height: 1.25;
+    margin-top: 50px;
+    margin-bottom: 115px;
+}
+
+.intro-quote {
+  line-height: 0.75;
+  font-style: italic;
+  font-size: 1.5625rem;
+}
+
+.main-container {
+  margin: 100px auto 100px auto;
+  width: 65%;
+  line-height: 1.5;
+}
+
+.athlete {
+  margin: 0 auto 125px auto;
+  padding-bottom: 80px;
+  text-align: left;
+}
+
+.athlete-description {
+  padding-top: 36px;
+}
+
+.athlete-img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  float: right;
+  margin-left: 50px;
+}
+
+.fashion {
+  margin: 0 auto 125px auto;
+  padding-bottom: 80px;
+  text-align: left;
+}
+
+.fashion-description {
+  padding-top: 36px;
+}
+
+.fashion-img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  float: left;
+  margin-right: 50px;
+  }
+
+.mother {
+  padding-bottom: 90px;
+  text-align: left;
+}
+
+.mother-desciption {
+  padding-top: 36px;
+}
+
+.mother-img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  float: right;
+  margin-left: 50px;
+}
+
+.project-details {
+  margin: 100px auto;
+  width: 50%;
+  font-size: 1.125rem;
+}
+
+.bottom-container {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 35px 25px 25px 25px;
+  font-size: 0.75rem;
+}
+
+.footer-link {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+  margin: 25px;
+  font-family: Open Sans;
+}
+
+.letter-highlight {
+  color: #32e0c4;
+}
+
+.links {
+  text-decoration: none;
+}
+
+.copyright {
+  margin: 25px;
+}
