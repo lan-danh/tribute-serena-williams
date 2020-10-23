@@ -38,6 +38,7 @@ hr {
 
 .intro-container {
   background-color: black;
+  position: relative;
 }
 
 .img-intro {
@@ -69,64 +70,31 @@ hr {
   font-size: 1.5625rem;
 }
 
-.main-container {
-  margin: 100px auto 100px auto;
-  width: 65%;
-  line-height: 1.5;
-}
-
-.athlete {
-  margin: 0 auto 75px auto;
-  padding-bottom: 80px;
+.main-description-row {
+  width: 75%;
+  margin: 100px auto 50px auto;
   text-align: left;
-}
-
-.athlete-description {
-  padding-top: 18px;
+  height: 325px;
 }
 
 .athlete-img {
-  width: 300px;
-  height: 300px;
-  object-fit: cover;
+  width: 32%;
   float: right;
-  margin-left: 50px;
-}
-
-.fashion {
-  margin: 0 auto 75px auto;
-  padding-bottom: 80px;
-  text-align: left;
-}
-
-.fashion-description {
-  padding-top: 18px;
-}
-
-.fashion-img {
-  width: 300px;
-  height: 300px;
-  object-fit: cover;
-  float: left;
-  margin-right: 50px;
-  }
-
-.mother {
-  padding-bottom: 45px;
-  text-align: left;
-}
-
-.mother-desciption {
-  padding-top: 18px;
+  margin-left: 30px;
 }
 
 .mother-img {
-  width: 300px;
-  height: 300px;
-  object-fit: cover;
-  float: right;
-  margin-left: 50px;
+  width: 32%;
+  float: left;
+  margin-right: 30px;
 }
+
+.fashion-img {
+  width: 32%;
+  float: right;
+  margin-left: 30px;
+}
+
 
 .project-details {
   margin: 100px auto;
@@ -156,6 +124,7 @@ hr {
 
 .links {
   text-decoration: none;
+
 }
 
 .copyright {
